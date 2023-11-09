@@ -62,11 +62,11 @@
       let
         org = "pythoneda-shared-artifact";
         repo = "artifact-events-infrastructure";
-        version = "0.0.1";
-        sha256 = "19zmsq59z41wn11m293b8jcn6d75fqw7bjlx1qx1svxd8bxz192d";
+        version = "0.0.2";
+        sha256 = "12l1fwjrsn2l4lbkmcncjypbav3brgvsrfhq3ns0fhgfzkbjs876";
         pname = "${org}-${repo}";
         pythonpackage =
-          "pythoneda.shared.artifact.events.artifact.infrastructure";
+          "pythoneda.shared.artifact.artifact.events.infrastructure";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
         description =
           "Shared kernel for pythoneda-shared-artifact/artifact-events-infrastructure";
