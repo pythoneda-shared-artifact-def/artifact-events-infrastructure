@@ -59,8 +59,8 @@
       let
         org = "pythoneda-shared-artifact";
         repo = "artifact-events-infrastructure";
-        version = "0.0.2";
-        sha256 = "12l1fwjrsn2l4lbkmcncjypbav3brgvsrfhq3ns0fhgfzkbjs876";
+        version = "0.0.3";
+        sha256 = "0crm15caipc4pn6rgi0wgmz1yfx3k2w49wqxi6q0y0yx0xxd24rh";
         pname = "${org}-${repo}";
         pythonpackage =
           "pythoneda.shared.artifact.artifact.events.infrastructure";
